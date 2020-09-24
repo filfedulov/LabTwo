@@ -1,4 +1,5 @@
-﻿using SolutionName;
+﻿using System;
+using SolutionName;
 
 
 
@@ -8,8 +9,15 @@ namespace MainName
     {
         static void Main(string[] args)
         {
-            SolutionForLab objectSFL = new SolutionForLab();
-            objectSFL.SolutionTask();
+            try
+            {
+                SolutionForLab objectSFL = new SolutionForLab();
+                objectSFL.SolutionTask();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
