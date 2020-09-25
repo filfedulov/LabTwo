@@ -55,9 +55,8 @@ namespace SolutionName
 
                 } while (checkPrecisionAndSummForVLSFE > precisionE);
                 
-                Console.WriteLine("X = " + (xAxis) + ";" + "\tSN = " + (valueSummForGivenN) + ";" + "\tSE = " + (valueSummForGivenE) + ";" 
-                    + 
-                    "\tY = " + (Math.Pow(Three, xAxis)) + ".\n");
+                Console.WriteLine($"X =  {xAxis:F3};\tSN = {valueSummForGivenN:F3};\tSE = {valueSummForGivenE:F3};" +
+                    $"\tY = {Math.Pow(Three, xAxis):F3}.\n");
 
                 valueSummForGivenN = 0;
                 valueSummForGivenE = 0;
