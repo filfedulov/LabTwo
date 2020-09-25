@@ -21,9 +21,7 @@ namespace SolutionName
 
         private int Factorial(int givenN)
         {
-            if (givenN == 0)
-                return 0;
-            else if (givenN == 1)
+            if (givenN == 0 || givenN == 1)
                 return 1;
 
             return givenN * Factorial(givenN - 1);
@@ -35,10 +33,7 @@ namespace SolutionName
             double denominatorOfCommonMember = Factorial(givenN);
             double multiplierOfCommonMember = Math.Pow(xAxis, givenN);
 
-            if (denominatorOfCommonMember == 0)
-                return 1.0;
-            else
-                return (numeratorOfCommonMember / denominatorOfCommonMember) * multiplierOfCommonMember;
+            return (numeratorOfCommonMember / denominatorOfCommonMember) * multiplierOfCommonMember;
         }
        
         public void SolutionTask()
