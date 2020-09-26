@@ -13,6 +13,7 @@ namespace MainName
             {
                 SolutionForLab objectSFL = new SolutionForLab();
                 objectSFL.SolutionTask();
+                objectSFL.Tmp();
             }
             catch(Exception ex)
             {
