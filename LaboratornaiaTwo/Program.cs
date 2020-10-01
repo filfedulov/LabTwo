@@ -2,7 +2,6 @@
 using SolutionName;
 
 
-
 namespace MainName
 {
     class Program
