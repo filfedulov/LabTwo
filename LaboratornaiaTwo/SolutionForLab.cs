@@ -15,7 +15,6 @@ namespace SolutionName
             changeFromA = 0.1,
             precisionE = 0.0001,
             amountSteps = (changeToB - changeFromA) / K,
-            checkPrecisionAndSummForVLSFE,
             nextMember;
 
 
