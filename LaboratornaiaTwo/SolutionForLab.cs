@@ -20,7 +20,7 @@ namespace SolutionName
 
        public void SolutionTask()
         {
-            for(x = changeFromA; x <= changeToB; x += amountSteps)
+            for (x = changeFromA; x <= changeToB; x += amountSteps)
             {
                 nextMember = 1.0;
                 valueSummForGivenN = 1.0;
